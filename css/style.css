@@ -1,6 +1,6 @@
 #input {
   position: absolute;
-  bottom: 10px;
+  bottom: 30px;
   left: 50%;
   width: 8em;
   max-width: 80%;
@@ -14,12 +14,29 @@
   z-index: 999;
   opacity: .25;
   -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
+  transform: translateX(-50%);
   -webkit-transition: opacity .3s;
   transition: opacity .3s;
 }
+
 #input:hover, #input:focus {
   opacity: 1;
+}
+
+.beian {
+  z-index: 999;
+  position: absolute;
+  margin: 0 auto;
+  bottom: 4px;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 20px;
+  line-height: 20px;
+  color: white;
+}
+
+.beian a {
+  color: #99ccff;
 }
 
 body {
@@ -31,7 +48,7 @@ body {
   margin: 0;
   padding: 0;
   -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
